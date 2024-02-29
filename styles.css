@@ -1,0 +1,46 @@
+body {
+    background: black;
+    color: white;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+.greenlink:hover {
+    color: green;
+    background: gray;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.indent {
+    margin-left: 10px;
+}
+
+.gap_below {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 750px) {
+    .responsive {
+        display: inline-block;
+        width: 200px;
+    }
+}
+
+@media (min-width: 1000px) {}
+
+/*use this to put borders around things*/
+.thin_border {
+    border: 1x solid black;
+}
